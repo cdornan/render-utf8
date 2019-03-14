@@ -1,0 +1,5 @@
+.stack-work/
+render-utf8.cabal
+*~
+.DS_Store
+._*

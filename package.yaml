@@ -1,0 +1,32 @@
+name:               render-utf8
+version:            0.1.0.0
+github:             "cdornan/render-utf8"
+license:            BSD3
+author:             "Chris Dornan"
+maintainer:         "chris@chrisdornan.com"
+copyright:          "2019 Chris Dornan"
+category:           Text
+synopsis:           "Simple Utf8 wrapper for ByteString Builder with conversion classes"
+
+extra-source-files:
+- README.md
+- ChangeLog.md
+
+description:        Simple Utf8 wrapper for ByteString Builder with conversion classes.
+                    Please see the README on GitHub at <https://github.com/cdornan/render-utf8#readme>
+
+dependencies:
+- base        >= 4.8.2.0 && < 10
+- bytestring
+- fmt         >= 0.6.0.0
+- semigroups
+- text
+- transformers
+
+ghc-options:
+- -Wall
+
+library:
+  source-dirs: src
+  exposed-modules:
+    Text.Utf8

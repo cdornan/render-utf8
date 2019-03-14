@@ -1,0 +1,4 @@
+:set -Wall
+:set -isrc
+
+:seti -XOverloadedStrings
